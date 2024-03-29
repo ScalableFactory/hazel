@@ -24,9 +24,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "yarn test && :",
-      "prettier --single-quote --no-semi --write --no-editorconfig",
-      "git add"
+      "prettier --single-quote --no-semi --write --no-editorconfig"
     ]
   },
   "dependencies": {
